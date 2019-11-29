@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="work.huangxin.collect.mapper.ContentMapper">
+    <resultMap id="BaseResultMap" type="work.huangxin.collect.model.Content">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="content" jdbcType="VARCHAR" property="content"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        id, content
+    </sql>
+
+    <select id="getData" parameterType="integer" resultType="work.huangxin.collect.model.Content">
+
+    SELECT id,content FROM content WHERE id>#{id} limit 5
+
+  </select>
+
+    <select id="getNewData" resultType="work.huangxin.collect.model.Content">
+
+    SELECT id,content FROM content ORDER BY id desc limit 15
+
+    </select>
+</mapper>

@@ -1,0 +1,29 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/danmu?useUnicode=true&useSSL=true&characterEncoding=utf8
+    username: root
+    password: 1538933906
+  mvc:
+    view:
+      # 页面默认前缀目录
+      prefix: /WEB-INF/
+      # 响应页面默认后缀
+      suffix: .jsp
+
+mybatis:
+  type-aliases-package: work.huangxin.collect.model
+  mapper-locations: classpath:mappers/*.xml
+  #通用mapper配置
+  mapper:
+    #公用接口类路径
+    mappers: work.huangxin.collect.basemapper
+    identity: MYSQL
+
+logging:
+  level:
+    work.huangxin.collect.mapper: debug
