@@ -10,4 +10,4 @@ maven项目,使用idea编译.
 ## 演示地址：http://display.huangxin.work
 
 
-# 此代码设计不佳,请移到Display这个项目查看完整代码
+# 此代码设计不佳,请移到[Display](https://github.com/Xin-Felix/Display)这个项目查看完整代码
