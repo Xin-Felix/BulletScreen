@@ -3,4 +3,4 @@
 
 #### SpringBoot后端，前端原生页面
 
-## 演示地址：http://magic.huangxin.work
+## 演示地址：http:/display.huangxin.work
