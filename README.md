@@ -8,3 +8,6 @@ maven项目,使用idea编译.
 #### SpringBoot后端，前端原生页面
 
 ## 演示地址：http://display.huangxin.work
+
+
+# 此代码设计不佳,请移到Display这个项目查看完整代码
