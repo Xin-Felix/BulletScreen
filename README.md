@@ -1,7 +1,7 @@
 # BulletScreen
 ### 弹幕墙，活动必备，简单使用，前后端代码都有
 
-## 使用websocket进行交互,没有使用数据库,所以后台代码编译运行即可使用,服务器一直开放,接口可以自己使用.
+## 使用数据库实时更新进行交互,没有另外一个灵活,可以到另外一个查看最新的项目代码[Display](https://github.com/Xin-Felix/Display)
 
 maven项目,使用idea编译.
 
